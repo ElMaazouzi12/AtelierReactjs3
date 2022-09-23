@@ -1,8 +1,9 @@
 import React from "react";
+import './Titre.css'
 
 function Titre(props) {
     return (
-        <h1> {props.info.titre} </h1>
+        <h3 className="card-title"> {props.titre} </h3>
     );
 }
 

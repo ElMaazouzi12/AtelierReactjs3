@@ -1,11 +1,12 @@
 import React from "react";
+import './Prix.css'
 
 function Prix(props) {
     return (
-        <div>
-            <h2> Prix : {props.info.prix} </h2>
-            <button>Read More</button>
-        </div>
+        <React.Fragment>
+            <p> Prix : {props.prix} </p>
+            <button className="card-btn">Read More.....</button>
+        </React.Fragment>
     );
 }
 

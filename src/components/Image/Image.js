@@ -2,7 +2,7 @@ import React from "react";
 
 function Image(props) {
     return (
-        <img src={props.info.url} alt={props.info.titre}/>
+        <img style={{width:'100%'}} src={props.url} alt={props.titre}/>
     );
 }
 
